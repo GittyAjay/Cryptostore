@@ -1,0 +1,17 @@
+<resources>
+    <string name="msg">Welcome to Login page</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="search">Search..</string>
+    <string name="cat_1">cat_1</string>
+    <string name="cate_2">cate_2</string>
+    <string name="cat_3">cat_3</string>
+    <string name="signin">signIn</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="cancel">cancel</string>
+    <string name="welcome_to_popup_activity">Welcome to popup activity</string>
+    <string name="app_label">Cryptostore</string>
+    <string name="enter_your_bank_name_here">Enter your bank name here</string>
+</resources>

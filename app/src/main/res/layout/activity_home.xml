@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="start"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/menu"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:drawableStart="@drawable/search"
+            android:drawablePadding="5dp"
+            android:hint="@string/search"
+            android:focusable="false"
+            android:padding="20dp"
+            android:inputType="text"
+            android:background="@drawable/search_bar"
+            android:autofillHints="Search.."
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingTop="16dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/choose_category"
+            />
+    </LinearLayout>
+     <HorizontalScrollView
+         android:layout_width="match_parent"
+         android:scrollbars="none"
+         android:layout_height="wrap_content">
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:padding="20dp"
+             android:layout_height="wrap_content">
+             <ImageButton
+                 android:id="@+id/atm_btn"
+                 android:layout_width="wrap_content"
+                 android:background="@drawable/atm_acc"
+                 android:layout_marginEnd="15dp"
+                 android:contentDescription="@string/cat_1"
+                 android:layout_height="wrap_content"/>
+             <ImageButton
+                 android:id="@+id/email_btn"
+                 android:layout_width="wrap_content"
+                 android:background="@drawable/email_acc"
+                 android:layout_marginEnd="15dp"
+                 android:contentDescription="@string/cate_2"
+                 android:layout_height="wrap_content"/>
+             <ImageButton
+                 android:id="@+id/socialAcc_btn"
+                 android:layout_width="wrap_content"
+                 android:background="@drawable/social_acc"
+                 android:layout_marginEnd="15dp"
+                 android:contentDescription="@string/cat_3"
+                 android:layout_height="wrap_content"/>
+         </LinearLayout>
+     </HorizontalScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingStart="16dp"
+        android:paddingTop="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/see_your_password" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <ImageButton
+                android:id="@+id/see_pass_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/see_password"
+                android:contentDescription="@string/cat_1"
+                android:padding="20dp" />
+            <ImageButton
+                android:id="@+id/see_atm_btn"
+                android:layout_width="wrap_content"
+                android:background="@drawable/atm_acc"
+                android:layout_marginEnd="15dp"
+                android:contentDescription="@string/cat_1"
+                android:layout_height="wrap_content"/>
+
+            <ImageButton
+                android:id="@+id/see_email_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/email_acc"
+                android:contentDescription="@string/cate_2" />
+
+            <ImageButton
+                android:id="@+id/see_socialAcc_btn"
+                android:layout_width="wrap_content"
+                android:background="@drawable/social_acc"
+                android:layout_marginEnd="15dp"
+                android:contentDescription="@string/cat_3"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "22032003154",
+    "firebase_url": "https://cryptostore-a54bf.firebaseio.com",
+    "project_id": "cryptostore-a54bf",
+    "storage_bucket": "cryptostore-a54bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22032003154:android:fb892df23ceae548ca6f8b",
+        "android_client_info": {
+          "package_name": "com.example.cryptostore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22032003154-u62me4pdp88ctqlkrpn3u54bofg8v79o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cryptostore",
+            "certificate_hash": "aa024b87daeda264ef136daeed10b3aa17dc006d"
+          }
+        },
+        {
+          "client_id": "22032003154-moml9s3384nlrafmdghdap965k7jmadj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy2zXmHL9u0TUBjKainQNG_eaxyXLP41A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22032003154-moml9s3384nlrafmdghdap965k7jmadj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

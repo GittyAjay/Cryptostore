@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cryptostore">
+    <!--        android:icon="@drawable/cryptostore"-->
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_label"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".accesing_user_data"></activity>
+
+        <activity android:name=".Home" />
+        <activity android:name=".Login" />
+        <activity android:name=".FirstActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
